@@ -1,1 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+   
+    <link href="" rel="stylesheet">
+    <link href="" rel="stylesheet">
+
+    <title>Rain Pyo's Rare Panda | WEB215 | Home</title>
+</head>
+<body>
+
+    <main>
+        <h2>Home</h2>
+        <p>Hey there! I'm excited to share this website I created for my Advanced Marking and Scripting class. 
+        It's still a work in progress, but when finished, the site will showcase my skills in HTML, CSS, and JavaScript. 
+        If you're interested in learning more about me and my background, head on over to my introduction page by clicking 
+        <a href="introduction.html">here!</a></p>
+        <br>
+    </main>
+    
+    <div data-include="components/footer.html"></div>
+
+    <script src="scripts/HTMLInclude.js"></script>
+</body>
+</html>
 
