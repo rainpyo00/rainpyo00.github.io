@@ -1,5 +1,16 @@
+* {
+  background-color: #F0F0F2;
+}
+
+h1 {
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  color: #4376C7;
+}
+
 figcaption {
-  text-align: center;
   font-style: italic;
 }
 
@@ -8,12 +19,28 @@ img {
     margin-left: auto;
     margin-right: auto;
     width: 450px;
+    box-shadow: 5px 5px 10px rgba(66, 182, 79, 0.3);
   }
 
-h2 {
+h1, h2, figcaption, footer {
     text-align: center;
 }
 
-footer {
-    text-align: center;
+body {
+  font-family: 'Manrope', sans-serif;
+  margin: 0px 230px 0px 230px
+}
+
+a {
+  text-decoration: none;
+  color: #42b64f;
+  font-weight: bold;
+}
+
+.about {
+  color: #1E1E1F;
+}
+
+footer a {
+  margin: 0px 5px 0px 5px
 }
