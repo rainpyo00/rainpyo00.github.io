@@ -1,13 +1,13 @@
 * {
-  background-color: #F0F0F2;
+  background-color: #F2F7F3;
 }
 
 h1 {
   font-family: 'Merriweather', serif;
 }
 
-h1 {
-  color: #4376C7;
+h1, h2 {
+  color: #6F842F;
 }
 
 figcaption {
@@ -19,7 +19,7 @@ img {
     margin-left: auto;
     margin-right: auto;
     width: 450px;
-    box-shadow: 5px 5px 10px rgba(66, 182, 79, 0.3);
+    box-shadow: 5px 5px 10px rgba(66, 182, 79, 0.3); /* shadow behind my image */
   }
 
 h1, h2, figcaption, footer {
@@ -28,19 +28,41 @@ h1, h2, figcaption, footer {
 
 body {
   font-family: 'Manrope', sans-serif;
-  margin: 0px 230px 0px 230px
-}
-
-a {
-  text-decoration: none;
-  color: #42b64f;
-  font-weight: bold;
-}
-
-.about {
+  margin: 0px 230px 0px 230px;
   color: #1E1E1F;
 }
 
 footer a {
-  margin: 0px 5px 0px 5px
+  margin: 0px 15px 0px 15px;
+}
+
+footer {
+  margin-top: 35px;
+}
+
+nav li{
+  list-style: none;
+  display: inline-block;
+  margin: 0px 110px 0px 110px;
+}
+
+a {
+  color: #6F842F;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav li a {
+  font-size: 17px;
+  border-radius: 25px; /* round corners */
+  transition: background-color 0.3s;
+}
+
+nav a:hover {
+  background-color: #959E9D;
+  padding: 5px 10px;
+}
+
+a:hover {
+  color: #1E1E1F;
 }
