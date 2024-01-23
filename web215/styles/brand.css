@@ -1,0 +1,81 @@
+h1 {
+  font-family: 'Merriweather', serif;
+}
+
+h1, h2 {
+  color: #6F842F;
+}
+
+
+footer a {
+  margin: 0px 15px 0px 15px;
+}
+
+footer {
+  margin-top: 35px;
+}
+
+nav li{
+  list-style: none;
+  display: inline-block;
+  margin: 0px 110px 0px 110px;
+}
+
+a {
+  color: #6F842F;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav li a {
+  font-size: 17px;
+  border-radius: 25px; /* round corners */
+  transition: background-color 0.3s;
+}
+
+nav a:hover {
+  background-color: #959E9D;
+  padding: 5px 10px;
+}
+
+a:hover {
+  color: #1E1E1F;
+}
+
+body {
+    font-family: 'Manrope', sans-serif;
+    margin: 0px 230px 0px 230px;
+    color: #1E1E1F;
+}
+
+h1, h2, figcaption, footer, #brandIntro {
+    text-align: center;
+}
+
+#brandIntro {
+  background-color: #6F842F;
+  color: #F2F7F3;
+  padding: 25px;
+  font-family: 'Merriweather', serif;
+}
+
+.brandName {
+  font-size: 80px;
+  margin-bottom: 0px;
+  background-color: #6F842F;
+  color: #F2F7F3;
+}
+
+.shopType {
+  margin-top: 0px;
+  font-size: 13px;
+}
+
+.logoArea {
+  background-color: #F2F7F3;
+
+}
+
+.logoHeading {
+  color: #1E1E1F;
+}
