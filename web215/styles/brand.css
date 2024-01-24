@@ -22,7 +22,7 @@ footer {
 nav li{
   list-style: none;
   display: inline-block;
-  margin: 0px 110px 0px 110px;
+  margin: 0px 10px 0px 120px;
 }
 
 a {
@@ -97,7 +97,41 @@ h1, h2, figcaption, footer, #brandIntro {
   font-family: 'Merriweather', serif;
 }
 
-.font2 {
-  font-size: ;
+.circle {
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  font-size: 20px;
+  text-align: center;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
+#color1 {
+  background-color: #6F842F;
+}
+
+#color2 {
+  background-color: #959E9D;
+}
+
+#color3 {
+  background-color: #F2F7F3;
+  border: solid 0.5px;
+}
+
+#color4 {
+  background-color: #15A282;
+}
+
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 80px;
+}
+
+.missionStatement {
+  padding-bottom: 50px;
+}
