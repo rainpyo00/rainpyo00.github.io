@@ -76,7 +76,7 @@ h1, h2, figcaption, footer, #brandIntro {
   color: #F2F7F3;
 }
 
-.logoHeading {
+.logoHeading, .paragraph, .font-container {
   color: #1E1E1F;
 }
 
@@ -134,4 +134,9 @@ h1, h2, figcaption, footer, #brandIntro {
 
 .missionStatement {
   padding-bottom: 50px;
+}
+
+.paragraph {
+  padding: 0px 95px;
+  font-size: 17px;
 }
