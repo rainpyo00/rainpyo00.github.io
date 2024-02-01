@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  
+  <link href="styles/default.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300&family=Merriweather&display=swap" rel="stylesheet">
+
+  <title>Rain Pyo's Rare Panda | WEB215 | Introduction Form</title>
+</head>
+<body>
+
+  <div data-include="components/header.html"></div>
+
+<main>
+  <h2>INTRODUCTION</h2>
+
+  <form id="introductionForm">
+    <label for="personalBackground" class="labelStyle">Personal background:</label>
+    <textarea id="personalBackground" name="personalBackground">I moved to Charlotte when I was 10 years old, I have been living here ever since.</textarea>
+    <br>
+    <label for="professionalBackground"  class="labelStyle">Professional background:</label>
+    <textarea id="professionalBackground" name="professionalBackground">I worked as a licensed nail technician during the summer after high school, before attending university.</textarea>
+    <br>
+    
+    <label for="academicBackground"  class="labelStyle">Academic background:</label>
+    <textarea id="academicBackground" name="academicBackground">I attended UNCC for 2 years in a different field.</textarea>
+    <br>
+    
+    <label for="subjectBackground"  class="labelStyle">Background in this subject:</label>
+    <textarea id="subjectBackground" name="subjectBackground">I took WEB 115 last semester.</textarea>
+    <br>
+    
+    <label for="computerPlatform"  class="labelStyle">Primary Computer Platform:</label>
+    <textarea id="computerPlatform" name="computerPlatform">Windows 11 (laptop).</textarea>
+    <br>
+    
+    <label for="coursesAndWhy"  class="labelStyle">Courses I'm Taking & Why:</label>
+    <textarea id="coursesAndWhy" name="coursesAndWhy">
+        <ol>
+            <li><strong>WEB215 - Adv Markup and Scripting: </a></strong> Major Requirement</li>
+            <li><strong>DBA120 - Database Programming I: </strong> Major Requirement</li>
+            <li><strong>CTS240 - Project Management: </strong> Major Requirement</li>
+            <li><strong>CSC221 - Advanced Python Programming: </strong> Major Requirement</li>
+            <li><strong>CTS118 - IS Professional Communication: </strong> Major Requirement</li>
+        </ol>
+    </textarea>
+    <br>
+    
+    <label for="interestingFact"  class="labelStyle">Funny/Interesting Item about Yourself:</label>
+    <textarea id="interestingFact" name="interestingFact">I spend most of my money feeding stray/feral animals.</textarea>
+    <br>
+    
+    <label for="alsoShare"  class="labelStyle">I'd also like to Share:</label>
+    <textarea id="alsoShare" name="alsoShare">I enjoy working out and running at the park.</textarea>
+    <br>
+    
+    <label class="labelStyle2">My favorite color:</label>
+    <br>
+    <input type="radio" id="blue" name="favoriteColor" value="Blue">
+    <label for="blue" class="labelStyle2">Blue</label>
+    <input type="radio" id="pink" name="favoriteColor" value="Pink">
+    <label for="pink" class="labelStyle2">Pink</label>
+    <input type="radio" id="yellow" name="favoriteColor" value="Yellow">
+    <label for="yellow" class="labelStyle2">Yellow</label>
+    <br>
+
+    <label  class="labelStyle2">My favorite animals:</label>
+    <br>
+    <input type="checkbox" id="cat" name="favoriteAnimal" value="Cat">
+    <label for="cat" class="labelStyle2">Cat</label>
+    <input type="checkbox" id="dog" name="favoriteAnimal" value="Dog">
+    <label for="dog" class="labelStyle2">Dog</label>
+    <input type="checkbox" id="bird" name="favoriteAnimal" value="Bird">
+    <label for="bird" class="labelStyle2">Bird</label>
+    <br>
+    <hr class="formEnd">
+
+    <button class= "introButton" type="button" onclick="submitForm()">Submit</button>
+</form>
+<div id="introOutput">
+</div>
+</main>
+
+<div data-include="components/footer.html"></div>
+<script src="scripts/html_include.js"></script>
+<script src="scripts/introductionform.js"></script>
+
+</body>
+</html>
