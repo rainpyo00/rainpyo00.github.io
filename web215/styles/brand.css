@@ -10,6 +10,18 @@ h1, h2 {
   color: #6F842F;
 }
 
+.logoPic {
+  width: 190px;
+}
+
+.logoAndHeading {
+display: flex;
+}
+
+.mainHeading {
+margin-top: 80px;
+margin-left: 50px;
+}
 
 footer a {
   margin: 0px 15px 0px 15px;
@@ -32,7 +44,7 @@ a {
 }
 
 nav li a {
-  font-size: 17px;
+  font-size: 20px;
   border-radius: 25px; /* round corners */
   transition: background-color 0.3s;
 }
@@ -138,5 +150,7 @@ h1, h2, figcaption, footer, #brandIntro {
 
 .paragraph {
   padding: 0px 95px;
-  font-size: 17px;
+}
+.paragraph, footer {
+font-size: 20px;
 }

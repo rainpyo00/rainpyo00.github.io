@@ -14,13 +14,26 @@ figcaption {
   font-style: italic;
 }
 
-img {
+.introPic {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 450px;
     box-shadow: 5px 5px 10px rgba(66, 182, 79, 0.3); /* shadow behind my image */
   }
+
+.logoPic {
+    width: 190px;
+  }
+
+.logoAndHeading {
+  display: flex;
+}
+
+.mainHeading {
+  margin-top: 80px;
+  margin-left: 50px;
+}
 
 h1, h2, figcaption, footer {
     text-align: center;
@@ -53,7 +66,7 @@ a {
 }
 
 nav li a, .introButton {
-  font-size: 17px;
+  font-size: 20px;
   border-radius: 25px; /* round corners */
   transition: background-color 0.3s;
 }
@@ -67,8 +80,8 @@ a:hover {
   color: #1E1E1F;
 }
 
-.contract_p {
-  font-weight: bold;
+.mainParagraphs, footer {
+  font-size: 20px;
 }
 
 /* Intro Form Styling */
@@ -126,3 +139,9 @@ textarea {
 .formEnd {
   margin: 30px;
 }
+
+.missionStatement {
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+
